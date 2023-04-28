@@ -1,0 +1,20 @@
+
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+  <h1>Home</h1>
+        <form method="get" action="">
+            <input type="text" name="q" placeholder="Search posts" value="{{ request.GET.q }}"/>
+            <input type="submit" value="Search"/>
+        </form>
+        {% for obj in object_list %}
+            {% if obj.thumbnail %}
+              <img src="{{obj.thumbnail.url}}"/><br>
+            {% endif %}}
+            <a href="{{obj.get_absolute_url}}">{{obj.title}}</a></br>
+            {{obj.author.last_name}}
+        {% endfor %}
+
+{% endblock %}

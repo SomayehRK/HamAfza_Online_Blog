@@ -1,0 +1,12 @@
+
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+    {% if obj.thumbnail %}
+      <img src="{{object.thumbnail.url}}"/><br>
+    {% endif %}
+    {{object.title}}</br>
+    {{object.content}}</br>
+{% endblock %}
