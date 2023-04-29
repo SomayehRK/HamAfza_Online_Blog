@@ -38,6 +38,6 @@ $ python manage.py runserver
 ## Technologies used:
 
 - **Backend**: Python Django Framework 3.12.4
--**API**: djangorestframework==3.14.0, djangorestframework-simplejwt==5.2.2
+- **API**: djangorestframework==3.14.0, djangorestframework-simplejwt==5.2.2
 - **Frontend**: HTML, CSS
 - **Database**: db.sqlite3
