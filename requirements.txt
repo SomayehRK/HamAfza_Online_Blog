@@ -7,6 +7,8 @@ decorator==5.1.1
 Django==4.2
 django-filter==23.1
 djangorestframework==3.14.0
+djangorestframework-jwt==1.11.0
+djangorestframework-simplejwt==5.2.2
 dynaconf==3.1.12
 hvac==1.1.0
 idna==3.4
@@ -16,6 +18,7 @@ loguru==0.7.0
 Markdown==3.4.3
 Pillow==9.5.0
 pyhcl==0.4.4
+PyJWT==1.7.1
 pytz==2023.3
 requests==2.29.0
 shortuuid==1.0.11
